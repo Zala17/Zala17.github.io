@@ -1,0 +1,90 @@
+/*css datoteka za stil moje html datoteke */
+
+/*stil slike: roza obroba, črtkana, deleline 5px, desna poravnava */ 
+img{
+	float: right;
+	margin: 20px;
+	border: 5px;
+	border-color: #DB89BB;
+	border-style: dashed;
+}
+
+/*stil naslova 1 (h1): pisava Permanent Marker, besedilo se poravna desno, barva temno zelena, ozadje roza, velikost besedila je 100px */
+h1{
+	font-family: 'Permanent Marker';
+	text-align: center-right;
+	color: #04403A;
+	background-color: #DB89BB;
+	font-size: 100px;
+	border-color: #AA3178;
+}
+
+/*stil naslova 2 (h2): pisava Barlow, besedilo se poravna sredinsko, velikost pisave je 45px, barva temno zelena, barva ozadja je roza */ 
+h2{
+	font-family: 'Barlow Semi Condensed';
+	font-size: 45px;
+	color: #04403A;
+	text-align:center;
+	background-color: #DB89BB;
+}
+
+/*stil naslova 3 (h3): pisava Barlow, besedilo se poravna sredinsko, barva besedila je temno roza, velikost besedila je 30px */
+h3{
+	font-family: 'Barlow Semi Condensed';
+	color: #AA3178;
+	font-size: 30px;
+	text-align: center;
+}
+
+/* stil naslova 4 (h4): pisava Barlow, besedilo se poravna levo, barva svetlo modra */
+h4{
+	font-family: 'Barlow Semi Condensed';
+	text-align: left;
+	color: #03A696;
+}
+
+/* stil za header oz. glavo spletne strani: barva ozadja svetlo roza */
+header{
+	background-color: #DB89BB;
+}
+
+/* stil za footer oz nogo spletne strani: barva ozadja je svetlo roza, zgoraj ima margin 30px */
+footer{
+	background-color: #DB89BB;
+	margin-top: 30px;
+}
+
+/* stil za tabele: margin ima prostora levo 300px, desno 300px */
+table {
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+/* stil za odstavke p: margin ima prostora 150px povsod */
+p{
+	margin: 150px;
+}
+
+/* stil za sezname ul: besedilo se poravna levo */
+ul{
+	text-align: left;
+}
+
+/* stil za razred poimenovan viri: font besedila je Barlow, besedilo se poravna levo */
+.viri{
+	font-family: 'Barlow Semi Condensed';
+	text-align: left;
+}
+
+/* stil za razred poimenovan logo: slika brez okvirja, ki ga nastavimo v prejšnjem razdelku img */
+.logo{
+	border-style: none;
+}
+
+/*
+uporabljene barve
+#DB89BB svetlo roza barva za ozadje 
+#04403A temno zelena za pisavo k maš ozadje
+#03A696 svetlo modra kakšna obroba, linki
+#AA3178 temno rozna naslovi/krepek tisk ali pa kakšna obroba
+*/
